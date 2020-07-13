@@ -1,0 +1,193 @@
+* {margin: 0; padding: 0; font-family: "Segoe UI"}
+body{
+	background: #fff;
+}
+#wrapper
+{
+	margin: auto;
+}
+.fon{
+	background: rgb(162,146,179);
+	height: 8px;
+}
+header{
+	width: 1017px;
+height: 130px;
+margin: auto;
+display: table;
+
+}
+#logo{
+	vertical-align: middle;
+display: table-cell;
+
+ 
+}
+nav{
+	display: table-cell;
+	vertical-align: middle;
+}
+#logo>span{
+	text-transform: uppercase;
+	font-family:"Samo Sans Pro";
+	font-size: 39px;
+	color:rgb(162,146,179);
+	display: block;
+	float: left;
+	padding: 13px 0 0 10px;
+}
+div#logo>img{float: left}
+
+ul li{
+	display: inline-block;
+letter-spacing: normal;
+list-style: none;
+font-family: "Segoe UI";
+margin-left: 31px;
+}
+nav a {
+	text-decoration: none;
+	color:rgb(100,100,100);
+	font-size: 20px; 
+}
+nav ul{
+	float: right;
+	font-size: 19px;
+}
+a>img{display: inline;}
+[href="#home"]{
+	background: url(../icon/home.png) no-repeat;
+	padding-left: 27px;
+font-size: 19px;
+}
+[href="#About Us"]{
+	background: url(../icon/chel.png) no-repeat;
+	background-position-y: 3px;
+letter-spacing: -1px;
+word-spacing: 3px;
+padding-left: 27px;
+}
+
+
+[href="#Services"]{
+	background: url(../icon/rul.png) no-repeat;
+	background-position-y: 2px;
+padding-left: 30px;
+}
+
+
+[href="#Conatct Us"]{
+	background: url(../icon/mail2.png) no-repeat;
+	background-position-y: 8px;
+padding-left: 25px;
+word-spacing: -2px;
+}
+
+
+.a1{
+	margin: -1px auto 32px;
+	width: 1020px;
+	border-top: 1px solid #000; 
+	border-bottom: 1px solid #000;
+	padding: 8px 0 15px;
+
+}
+p.a{
+	font-size: 23px;
+  font-family: "Segoe UI";
+  font-style: italic;
+  line-height: 1.565;
+  text-align: center;
+  margin-left: -15px;
+}
+p.a>span{color: rgb(130, 105, 157); font-weight: bold;}
+#slider{
+	margin-bottom: 18px;
+
+}
+article{
+	width: 1020px;
+	margin: auto;
+}
+.for_img>img{
+	border: 10px solid rgb(223, 223, 223);
+	border-radius: 50%; 
+}
+.for_img{
+	float: left;
+	border: 10px solid rgb(243, 243, 243);
+	width: 290px;
+	height: 290px;
+	border-radius: 50%; 
+	margin-left: 23px;
+	margin-right: 40px;
+}
+h1{
+	font-family: "Segoe UI";
+	font-size: 31px;
+	margin: 40px 0 17px -5px;
+	display: inline-block;
+	color: rgb(80,80,81);
+}
+p.a2{
+	font-family: "Segoe UI";
+	font-size: 15px;
+	line-height: 28px;
+	text-align: left;
+}
+#read_more{
+	display: block;
+	font-style: italic;
+	text-align: right;
+	text-decoration: none;
+	color: #000;
+}
+#more{display: none;}
+h2{
+	font-weight: normal;
+	float: left;
+	font-size: 23px;
+	text-align: center;
+}
+
+div.a3  {
+	width: 100%;
+	border-top: 2px dotted #ccc;
+	font-size: 1px;
+}
+#a3{
+float: right;
+width: 67%;
+margin-top: 13px;
+}
+section.a3{
+	margin-top: 44px;
+}
+.partner{font-size: 0;
+margin-top: 112px;
+}
+section>a{margin-left: -2px;
+}
+footer{
+	background: rgb(230,230,230);
+	margin-top: 60px;
+}
+footer>div{
+	width: 1020px;
+	height: 70px;
+	text-align: center;
+	margin: auto;
+}
+.copy{
+	padding-top: 16px;
+font-size: 15px;
+line-height: 2.4;
+float: left;
+}
+.contact{
+	float: right;
+}
+.contact{
+	padding-top: 21px;
+	letter-spacing: 18px;
+}
